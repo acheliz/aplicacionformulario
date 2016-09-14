@@ -1,0 +1,346 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>xd</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/formulario.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="script.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b" data-theme = "a">
+<h1>Formulario </h1>
+</div>
+<div data-role="main" class="ui-content">
+<h1><center> SEXUALIDAD</center></h1>
+<BR>
+<BR>
+<FORM action="mailto:Lizbeth.actual4g.dam@gmail" method="post">
+
+<div data-role="fieldcontain" >
+<label for="texto">Nombre: </label>
+<input type="text" placeholder="Inserte su nombre" size="80" />
+</div>
+
+<div data-role="fieldcontain">
+<label for="texto">Apellidos: </label>
+<input type="text" placeholder="Inserte sus apellidos" size="80" />
+</div>
+
+<div data-role="fieldcontain">
+<label for="email">Email:</label>
+<input type="email" name="email " id="email " value="@hotmail.com" />
+</div>
+
+<br>
+
+<div>
+
+<label >Sexo</label>
+<fieldset data-role="controlgroup" data-mini="true" data-type = "horizontal">
+<input type="radio" name="radio-mini" id="radio-mini-1" value="choice-1"
+checked="checked" />
+<label for="radio-mini-1">Masculino </label>
+<input type="radio" name="radio-mini" id="radio-mini-2" value="choice-2" />
+<label for="radio-mini-2">Femenino </label>
+
+</fieldset>
+</div>
+
+<br>
+
+<div data-role="fieldcontain" align= "center">
+<label>Fecha de Nacimiento :</label>
+<fieldset data-role="controlgroup"data-type="horizontal" >
+
+<label for="select_mes">Mes</label>
+<select name="select_mes" id="select_mes">
+<option>Mes</option>
+<option value="ene">Enero </option>
+<option value="feb">Febrero </option>
+<option value="mar">Marzo </option>
+<option value="abr">Abril </option>
+<option value="may">Mayo</option>
+<option value="jun">Junio </option>
+<option value="jal">Julio </option>
+<option value="ago">Agosto </option>
+<option value="sep">Septiembre </option>
+<option value="oct">Octubre </option>
+<option value="nov">Noviembre </option>
+<option value="dic">Diciembre </option>
+<!-- etc. -->
+</select>
+<label for="select_dia">Dia</label>
+<select name="select_dia" id="select_dia">
+<option>Dia</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<!-- etc. -->
+</select>
+<label for="select_year">Año</label>
+<select name="select_year" id="select_year">
+<option>Año</option>
+<option value="1995">1995</option>
+<option value="1996">1996</option>
+<option value="1997">1997</option>
+<option value="1998">1998</option>
+<option value="1999">1999</option>
+<option value="2000">2000</option>
+<!-- etc. -->
+</select>
+</fieldset>
+</div>
+
+
+<div>
+<label>Tu edad es :</label>
+<select name="select_edad" id="select_edad">
+<option>Elige tu edad</option>
+<option value="10">10 </option>
+<option value="11">11 </option>
+<option value="12">12 </option>
+<option value="13">13 </option>
+<option value="14">14 </option>
+<option value="15">15 </option>
+<option value="16">16 </option>
+<option value="17">17 </option>
+<option value="18">18 </option>
+<option value="19">19 </option>
+<option value="20">20 </option>
+<option value="mas">mas.. </option>
+</select>
+<div>
+
+<br>
+<div><h4>QUE TANTO CREE QUE SABES SOBRE LAS INFECCIONES DE TRANSMISIÓN SEXUAL Y EL VIH /SIDA (Marca una sola opción) </h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="20" id="20" class="custom"/>
+<label for="20">Mucho</label>
+<input type="radio" name="32" id="32" class="custom"/>
+<label for="32">Mas o menos</label>
+<input type="radio" name="33" id="33" class="custom"/>
+<label for="33">Poco</label>
+<input type="radio" name="34" id="34" class="custom"/>
+<label for="34">Nada</label>
+</div>
+<br> 
+
+<br>
+<div><h4> ¿QUE BUSCAS EN UNA RELACIÓN DE PAREJA </h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="40" id="40" class="custom"/>
+<label for="40">CONSTRUIR UNA FAMILIA</label>
+<input type="radio" name="42" id="42" class="custom"/>
+<label for="42">VIVIR BUENOS MOMENTOS</label>
+<input type="radio" name="33" id="43" class="custom"/>
+<label for="43">EXPERIMENTAR SENSACIONES FUERTES</label>
+<input type="radio" name="34" id="44" class="custom"/>
+<label for="44">SEGURIDAD AFECTIVA</label>
+</div>
+<br> 
+
+
+<br>
+<div><h4>¿Cuales son las principales causas del embarazo en la adolescencia? </h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="checkbox" name="1" id="1" class="custom"/>
+<label for="1">Falta de información sobre métodos anticonceptivos</label>
+<input type="checkbox" name="2" id="2" class="custom"/>
+<label for="2">Falta de información sobre sexualidad</label>
+<input type="checkbox" name="3" id="3" class="custom"/>
+<label for="3">Irresponsabilidad</label>
+<input type="checkbox" name="8" id="8" class="custom"/>
+<label for="8">Alcohol y Drogas</label>
+</div>
+<br>
+
+<div><h4>¿Cuantos casos conoces de embarazos en adolescentes? </h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="4" id="4" class="custom"/>
+<label for="4">Uno</label>
+<input type="radio" name="5" id="5" class="custom"/>
+<label for="5">Dos o mas</label>
+<input type="radio" name="6" id="6" class="custom"/>
+<label for="6">Cuatro o mas</label>
+<input type="radio" name="7" id="7" class="custom"/>
+<label for="7">Ninguno</label>
+</div>
+
+<br>
+<label for="select_opt"><h4>¿Cuales son los motivos que te impulsan a tener tu primera relación sexual?</h4></label>
+<select name="select_opt" id="select_opt">
+<option>Elige una </option>
+<option value="ene">Incitación de los medios de comunicación</option>
+<option value="feb">Presión de la pareja </option>
+<option value="mar">Presión de las amistades </option>
+<option value="abr">Curiosidad </option>
+<!-- etc. -->
+</select>
+
+<br>
+<div><h4>¿Cual crees que es el mejor método anticonceptivo? </h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="checkbox" name="10" id="10" class="custom"/>
+<label for="10">Preservativos</label>
+<input type="checkbox" name="12" id="12" class="custom"/>
+<label for="12">inyecciones</label>
+<input type="checkbox" name="13" id="13" class="custom"/>
+<label for="13">Pastillas</label>
+<input type="checkbox" name="14" id="14" class="custom"/>
+<label for="14">Dispositivos</label>
+</div>
+<br>
+
+<div><h4>¿Cual es la mejor opción para revertir o disminuirlos embarazos en adolescentes?</h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="11" id="11" class="custom"/>
+<label for="11">Información sobre sexualidad en los establecimientos educativos</label>
+<input type="radio" name="15" id="15" class="custom"/>
+<label for="15">Promoción de métodos anticonceptivos</label>
+<input type="radio" name="16" id="16" class="custom"/>
+<label for="16">Comunicación con los padres</label>
+<input type="radio" name="17" id="17" class="custom"/>
+<label for="17">Orientación profesional</label>
+</div>
+
+<br>
+
+<br>
+<div><h4>UN CONDÓN SE PUEDE USAR VARIAS VECES</h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="50" id="50" class="custom"/>
+<label for="50">si</label>
+<input type="radio"name="52" id="52" class="custom"/>
+<label for="52">no</label>
+<input type="radio"name="53" id="53" class="custom"/>
+<label for="53">no se</label>
+</div>
+<br>
+
+<br>
+<div><h4>CONSIDERAS QUE UTILIZAR EL CONDÓN EN TODAS LAS RELACIONES SEXUALES PROTEGE A LAS PERSONAS DEL INFECCIONES</h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="60" id="60" class="custom"/>
+<label for="60">si</label>
+<input type="radio"name="62" id="62" class="custom"/>
+<label for="62">no</label>
+<input type="radio"name="63" id="63" class="custom"/>
+<label for="63">no se</label>
+</div>
+<br>
+
+<br>
+<div><h4>LOS CONDONES TIENEN FECHA DE VENCIMIENTO?</h4></div>
+<div data-role="fieldset">
+<fieldset data-role="controlgroup">
+
+<input type="radio" name="70" id="70" class="custom"/>
+<label for="70">si</label>
+<input type="radio"name="72" id="72" class="custom"/>
+<label for="72">no</label>
+<input type="radio"name="73" id="73" class="custom"/>
+<label for="73">no se</label>
+</div>
+<br>
+
+<br>
+<br>
+<div>
+<label for="comentario "><h4>¿Cual es tu opinión sobre la sexualidad?</h4></label>
+<textarea name="comentario " id="comentario ">
+Introduce...
+</textarea>
+</div>
+<br>
+<div>
+
+<div>
+<label for="comentario "><h4>¿DE QUIEN RECIBES O ESCUCHAS INFORMACIÓN SOBRE LAS INFECCIONES DE TRANSMISIÓN SEXUAL?</h4></label>
+<textarea name="x" id="x">
+Introduce...
+</textarea>
+</div>
+<br>
+<div>
+
+<input type="submit" value="Enviar" data-inline="true">
+<input type="reset" value="Borrar todo" data-inline="true">
+</div>
+</div>
+<div>
+<p onClick="mostrarMensaje1()"></p>
+<form name="formulario">
+    <input type="text" name="horafecha" id="horafecha" value="" size="40"/>
+    <input type="button" value="Obtener Fecha" onClick="fechahora()"/>
+    </form>
+</div>
+
+</FORM>
+<div data-role="footer" align="center" data-theme="a" data-position = "fixed">
+  <div>
+  <h4>Lizbeth Actual Hernández </h4>
+ <center><img src="res/android/mdpi.png" width="73" height="70">
+  </div>
+  </div>
+  </div>
+ </body>
+ </html>
+
